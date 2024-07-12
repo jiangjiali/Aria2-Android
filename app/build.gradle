@@ -1,7 +1,7 @@
 import com.github.triplet.gradle.androidpublisher.ReleaseStatus
 
 plugins {
-    id 'com.github.triplet.play' version '3.10.1'
+    id 'com.github.triplet.play' version '3.8.6'
 }
 
 apply plugin: 'com.android.application'
@@ -130,7 +130,7 @@ dependencies {
     implementation 'com.github.tonyofrancis.Fetch:xfetch2:3.1.6'
     implementation 'com.github.tonyofrancis.Fetch:xfetch2okhttp:3.1.6'
 
-    implementation 'commons-net:commons-net:3.11.1'
+    implementation 'commons-net:commons-net:3.10.0'
     implementation 'com.hierynomus:smbj:0.13.0'
     implementation 'com.jcraft:jsch:0.1.55'
 
@@ -144,7 +144,7 @@ dependencies {
     implementation 'androidx.documentfile:documentfile:1.0.1'
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
 
-    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'com.google.android.material:material:1.11.0'
 }
 
 //apply plugin: 'com.google.gms.google-services'
