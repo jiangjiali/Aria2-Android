@@ -1,1 +1,1 @@
-
+-keep class com.gianlu.commonutils.**
