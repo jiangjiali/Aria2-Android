@@ -60,7 +60,7 @@
     <string name="info">任務訊息</string>
     <string name="files">檔案列表</string>
     <string name="profileName">設定名稱</string>
-    <string name="profile_help">如果您不知道如何正確建立設定檔，請查看我的網站上的教學: https://github.com/devgianlu/Aria2App/wiki/Create-a-profile</string>
+    <string name="profile_help">如果您不知道如何正確建立設定檔，請查看我的網站上的教學: https://github.com/jiangjiali/Aria2-Android/wiki/Create-a-profile</string>
     <string name="address">網址</string>
     <string name="servers">服務器</string>
     <string name="addProfile">新增設定檔</string>
@@ -95,10 +95,10 @@
     <string name="menu_downloadQuickOptions">快速選項</string>
     <string name="notificationService">通知服務</string>
     <string name="writeExternalStorageRequest_title">需要寫入權限</string>
-    <string name="writeExternalStorageRequest_message">為了將檔案保存到裝置中，Aria2App 需要寫入您的裝置外部儲存空間的權限。</string>
+    <string name="writeExternalStorageRequest_message">為了將檔案保存到裝置中，Aria2 需要寫入您的裝置外部儲存空間的權限。</string>
     <string name="readExternalStorageRequest_title">需要讀取權限</string>
-    <string name="readExternalStorageRequest_certMessage">為了載入證書，Aria2App 需要讀取您的裝置外部儲存空間的權限。</string>
-    <string name="readExternalStorageRequest_base64Message">為了載入種子/磁連結檔案，Aria2App 需要讀取您的裝置外部儲存空間權限。</string>
+    <string name="readExternalStorageRequest_certMessage">為了載入證書，Aria2 需要讀取您的裝置外部儲存空間的權限。</string>
+    <string name="readExternalStorageRequest_base64Message">為了載入種子/磁連結檔案，Aria2 需要讀取您的裝置外部儲存空間權限。</string>
     <string name="search">搜尋</string>
     <string name="addUri">新增網址</string>
     <string name="quickGlobalOptions">快速全局選項</string>
@@ -142,7 +142,7 @@
     <string name="file">檔案</string>
     <string name="pickTorrent_help">選擇一個種子檔案。支援的mime類型是 <![CDATA[<b>application/x-bittorrent</b>]]>.</string>
     <string name="outdated_aria2">舊的 aria2 版本</string>
-    <string name="outdated_aria2_message">你的 aria2 版本已非最新版了。 Aria2App 為最新的 aria2 版本開發，因此您應該更新它。您可以在選項中停用此訊息。 \n\n目前版本: %1$s\n最新版本: %2$s</string>
+    <string name="outdated_aria2_message">你的 aria2 版本已非最新版了。 Aria2 為最新的 aria2 版本開發，因此您應該更新它。您可以在選項中停用此訊息。 \n\n目前版本: %1$s\n最新版本: %2$s</string>
     <string name="selectFile_help">只能在多檔案種子上下載檔案，才能從下載中選擇或取消選擇檔案。</string>
     <string name="nameLabel">名稱</string>
     <string name="searchDownloads">搜尋下載</string>
@@ -164,7 +164,7 @@
     <string name="base64NotSelected">您還沒有選擇檔案!</string>
     <string name="certDisclaimer">如果您的服務器已被此系統信任（通常是您安裝了證書或證書由受信任的來源簽名），則不需要證書</string>
     <string name="test">測試</string>
-    <string name="test_help">按下測試按鈕 Aria2App 將檢查您的設定並幫助您診斷網絡問題。</string>
+    <string name="test_help">按下測試按鈕 Aria2 將檢查您的設定並幫助您診斷網絡問題。</string>
     <string name="completedLengthLabel">完成大小</string>
     <string name="filename">檔案名:</string>
     <string name="filename_help" tools:ignore="TypographyDashes">下載檔案的檔案名。可留空讓 Aria2 自行生成。本訊息將替換 --out 參數的內容.</string>
@@ -220,7 +220,7 @@
     <string name="running">正在執行</string>
     <string name="paused">已暫停</string>
     <string name="failedOpeningDownload">打開下載失敗!</string>
-    <string name="noDirectDownloads">現在沒有下載任務。您可以從下載任務的檔案列表選單開始下載檔案。在這裡閱讀更多關於 DirectDownload 的訊息: https://github.com/devgianlu/Aria2App/wiki/Setup-DirectDownload</string>
+    <string name="noDirectDownloads">現在沒有下載任務。您可以從下載任務的檔案列表選單開始下載檔案。在這裡閱讀更多關於 DirectDownload 的訊息: https://github.com/jiangjiali/Aria2-Android/wiki/Setup-DirectDownload</string>
     <string name="remainingTime">剩餘時間</string>
     <string name="connectionsLabel">連接</string>
     <string name="numSeederLabel">種子數量</string>
@@ -270,9 +270,9 @@
     <string name="torrentFiles">種子檔案</string>
     <string name="metalinkFiles">Metalink 檔案</string>
     <string name="urisFile">網址檔案</string>
-    <string name="urisFile_help">要了解更多關於網址檔案的訊息，請訪問以下頁面: https://github.com/devgianlu/Aria2App/wiki/What\'s-an-URI-file</string>
+    <string name="urisFile_help">要了解更多關於網址檔案的訊息，請訪問以下頁面: https://github.com/jiangjiali/Aria2-Android/wiki/What\'s-an-URI-file</string>
     <string name="cancelled">已取消</string>
-    <string name="failedStartingAria2Android">啟動 Aria2Android 失敗!</string>
+    <string name="failedStartingAria2Android">啟動Aria2失敗!</string>
     <string name="prefs_ddUseExternal">使用外部下載管理器</string>
     <string name="prefs_ddUseExternal_summary">把下載任務發送至系統或其它 App</string>
     <string name="cannotDownloadDirWithExternal">不能下載資料夾</string>

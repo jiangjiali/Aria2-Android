@@ -65,13 +65,13 @@ public class PreferenceActivity extends BasePreferenceActivity {
     @Nullable
     @Override
     protected String getGithubProjectName() {
-        return "Aria2App";
+        return "Aria2-Android";
     }
 
     @Nullable
     @Override
     protected String getOpenSourceUrl() {
-        return "https://github.com/devgianlu/Aria2App";
+        return "https://github.com/jiangjiali/Aria2-Android";
     }
 
     @Override

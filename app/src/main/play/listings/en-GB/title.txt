@@ -1,1 +1,1 @@
-Aria2App (open source)
+Aria2-Android

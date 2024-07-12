@@ -67,7 +67,7 @@ public final class LogsHelper {
         Uri.Builder uri = new Uri.Builder()
                 .scheme("https")
                 .authority("github.com")
-                .appendPath("devgianlu")
+                .appendPath("jiangjiali")
                 .appendPath(projectName)
                 .appendPath("issues")
                 .appendPath("new")
