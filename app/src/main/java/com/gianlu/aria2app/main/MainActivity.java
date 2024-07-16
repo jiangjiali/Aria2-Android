@@ -329,10 +329,10 @@ public class MainActivity extends UpdaterActivity implements FloatingActionsMenu
                 .addMenuItem(new BaseDrawerItem<>(DrawerItem.DIRECT_DOWNLOAD, R.drawable.baseline_cloud_download_24, getString(R.string.directDownload)))
                 .addMenuItem(new BaseDrawerItem<>(DrawerItem.QUICK_OPTIONS, R.drawable.baseline_favorite_24, getString(R.string.quickGlobalOptions)))
                 .addMenuItem(new BaseDrawerItem<>(DrawerItem.GLOBAL_OPTIONS, R.drawable.baseline_list_24, getString(R.string.globalOptions)))
-                .addMenuItem(new BaseDrawerItem<>(DrawerItem.ABOUT_ARIA2, R.drawable.baseline_cloud_24, getString(R.string.about_aria2)))
-                .addMenuItemSeparator()
+                // .addMenuItem(new BaseDrawerItem<>(DrawerItem.ABOUT_ARIA2, R.drawable.baseline_cloud_24, getString(R.string.about_aria2)))
+                // .addMenuItemSeparator()
                 .addMenuItem(new BaseDrawerItem<>(DrawerItem.PREFERENCES, R.drawable.baseline_settings_24, getString(R.string.preferences)))
-                .addMenuItem(new BaseDrawerItem<>(DrawerItem.SUPPORT, R.drawable.baseline_report_problem_24, getString(R.string.support)))
+                // .addMenuItem(new BaseDrawerItem<>(DrawerItem.SUPPORT, R.drawable.baseline_report_problem_24, getString(R.string.support)))
                 .addProfiles(profilesManager.getProfiles(), this, (context, profiles, listener) -> new CustomProfilesAdapter(context, profiles, 0, listener))
                 .addProfilesMenuItem(new BaseDrawerItem<>(DrawerItem.ADD_PROFILE, R.drawable.baseline_add_24, getString(R.string.addProfile)))
                 .build(this, findViewById(R.id.main_drawer), toolbar);
