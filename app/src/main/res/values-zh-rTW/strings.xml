@@ -220,7 +220,7 @@
     <string name="running">正在執行</string>
     <string name="paused">已暫停</string>
     <string name="failedOpeningDownload">打開下載失敗!</string>
-    <string name="noDirectDownloads">現在沒有下載任務。您可以從下載任務的檔案列表選單開始下載檔案。在這裡閱讀更多關於 DirectDownload 的訊息: https://github.com/jiangjiali/Aria2-Android/wiki/Setup-DirectDownload</string>
+    <string name="noDirectDownloads">現在沒有下載任務。您可以從下載任務的檔案列表選單開始下載檔案。</string>
     <string name="remainingTime">剩餘時間</string>
     <string name="connectionsLabel">連接</string>
     <string name="numSeederLabel">種子數量</string>

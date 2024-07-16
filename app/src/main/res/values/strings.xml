@@ -262,7 +262,7 @@
     <string name="running">Running</string>
     <string name="paused">Paused</string>
     <string name="failedOpeningDownload">Failed opening the download!</string>
-    <string name="noDirectDownloads">There are no downloads. You can start downloading a file from the Files tab of a download. Read more about DirectDownload here: https://github.com/jiangjiali/Aria2-Android/wiki/Setup-DirectDownload</string>
+    <string name="noDirectDownloads">There are no downloads. You can start downloading a file from the Files tab of a download.</string>
     <string name="remainingTime">Remaining time</string>
     <string name="connectionsLabel">Connections</string>
     <string name="numSeederLabel">Seeders</string>

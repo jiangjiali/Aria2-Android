@@ -257,7 +257,7 @@
     <string name="running">正在运行</string>
     <string name="paused">已暂停</string>
     <string name="failedOpeningDownload">打开下载失败！</string>
-    <string name="noDirectDownloads">现在没有下载任务。您可以从下载任务的文件列表选项卡开始下载文件。在这里阅读更多关于DirectDownload的信息：https://github.com/jiangjiali/Aria2-Android/wiki/Setup-DirectDownload</string>
+    <string name="noDirectDownloads">现在没有下载任务。您可以从下载任务的文件列表选项卡开始下载文件。</string>
     <string name="remainingTime">剩余时间</string>
     <string name="connectionsLabel">连接</string>
     <string name="numSeederLabel">种子数量</string>
