@@ -73,7 +73,7 @@ public final class ThisApplication extends AnalyticsApplication implements Error
     @NonNull
     @Override
     protected String getGithubProjectName() {
-        return "Aria2-Android";
+        return null;
     }
 
     @Override
