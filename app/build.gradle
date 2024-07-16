@@ -5,14 +5,14 @@ android {
     namespace 'com.gianlu.aria2app'
 
     defaultConfig {
-        compileSdk 34
+        compileSdk 35
         
         applicationId "com.jiangjiali.aria2"
-        minSdkVersion 21
-        targetSdkVersion 34
+        minSdkVersion 26
+        targetSdkVersion 35
 
-        versionCode 228
-        versionName "5.9.16"
+        versionCode 1
+        versionName "1.36.0"
 
         // Keep abiFilter for the universalApk
         ndk {
