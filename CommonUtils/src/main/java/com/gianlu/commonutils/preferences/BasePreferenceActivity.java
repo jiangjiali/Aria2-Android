@@ -275,26 +275,26 @@ public abstract class BasePreferenceActivity extends ActivityWithDialog implemen
             //     donateBuilder.addItem(new MaterialAboutActionItem(R.string.donate, R.string.donate_summary, R.drawable.baseline_money_24, () -> openLink(context, "https://www.buymeacoffee.com/jiangjiali")));
             // }
 
-            MaterialAboutCard.Builder tutorialBuilder = null;
-            if (parent.hasTutorial()) {
-                tutorialBuilder = new MaterialAboutCard.Builder()
-                        .title(R.string.prefs_tutorial);
+            // MaterialAboutCard.Builder tutorialBuilder = null;
+            // if (parent.hasTutorial()) {
+            //     tutorialBuilder = new MaterialAboutCard.Builder()
+            //             .title(R.string.prefs_tutorial);
 
-                tutorialBuilder.addItem(new MaterialAboutActionItem(R.string.prefs_restartTutorial, 0, R.drawable.baseline_settings_backup_restore_24, () -> {
-                    TutorialManager.restartTutorial();
-                    parent.onBackPressed();
-                }));
+            //     tutorialBuilder.addItem(new MaterialAboutActionItem(R.string.prefs_restartTutorial, 0, R.drawable.baseline_settings_backup_restore_24, () -> {
+            //         TutorialManager.restartTutorial();
+            //         parent.onBackPressed();
+            //     }));
 
-                List<MaterialAboutItem> items = parent.customizeTutorialCard();
-                for (MaterialAboutItem item : items)
-                    tutorialBuilder.addItem(item);
-            }
+            //     List<MaterialAboutItem> items = parent.customizeTutorialCard();
+            //     for (MaterialAboutItem item : items)
+            //         tutorialBuilder.addItem(item);
+            // }
 
             MaterialAboutList.Builder listBuilder = new MaterialAboutList.Builder();
             listBuilder.addCard(developerBuilder.build());
             if (preferencesBuilder != null) listBuilder.addCard(preferencesBuilder.build());
             // listBuilder.addCard(donateBuilder.build());
-            if (tutorialBuilder != null) listBuilder.addCard(tutorialBuilder.build());
+            // if (tutorialBuilder != null) listBuilder.addCard(tutorialBuilder.build());
             listBuilder.addCard(logsBuilder.build());
             return listBuilder.build();
         }

@@ -6,7 +6,7 @@
     <string name="rpcPort">RPC端口</string>
     <string name="rpcToken">RPC令牌</string>
     <string name="outputPath">输出路径</string>
-    <string name="general">一般</string>
+    <string name="general">常规</string>
     <string name="clearLogs">清除日志</string>
     <string name="saveSession">保存会话</string>
     <string name="saveSession_summary">定期保存下载任务信息，以便在服务停止时不会丢失它们。</string>

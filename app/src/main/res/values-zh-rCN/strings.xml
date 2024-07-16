@@ -11,19 +11,19 @@
     <string name="tutorial_peerDetails">点击一个peer以显示有关详情</string>
     <!-- Prefs -->
     <string name="prefs_hideMetadata">隐藏链接元数据</string>
-    <string name="prefs_hideMetadata_summary">隐藏后续会启动另一个下载的元数据。</string>
+    <string name="prefs_hideMetadata_summary">隐藏后续会启动另一个下载的元数据</string>
     <string name="prefs_updateRate">刷新频率</string>
-    <string name="prefs_updateRate_summary">用户界面刷新频率，以秒为单位。</string>
+    <string name="prefs_updateRate_summary">用户界面刷新频率，以秒为单位</string>
     <string name="prefs_networkTimeout">网络超时</string>
-    <string name="prefs_networkTimeout_summary">如果您的网络有很高的延迟，请增加此值(秒)以避免错误。</string>
+    <string name="prefs_networkTimeout_summary">如果您的网络有很高的延迟，请增加此值(秒)以避免错误</string>
     <string name="prefs_downloadDisplayInfo">下载显示信息</string>
-    <string name="prefs_downloadDisplayInfo_summary">自定义下载卡中显示的信息。</string>
+    <string name="prefs_downloadDisplayInfo_summary">自定义下载卡中显示的信息</string>
     <string name="prefs_versionCheck">在启动时检查aria2版本</string>
-    <string name="prefs_versionCheck_summary">检查最新版本的aria2是否正在运行。</string>
+    <string name="prefs_versionCheck_summary">检查最新版本的aria2是否正在运行</string>
     <string name="prefs_ddDownloadPath">下载路径</string>
-    <string name="prefs_ddDownloadPath_summary">所有文件都将在下载到这里。</string>
+    <string name="prefs_ddDownloadPath_summary">所有文件都将在下载到这里</string>
     <string name="prefs_ddMaxSimultaneousDownloads">最大同时下载量</string>
-    <string name="prefs_ddMaxSimultaneousDownloads_summary">同时运行的最大下载次数。</string>
+    <string name="prefs_ddMaxSimultaneousDownloads_summary">同时运行的最大下载次数</string>
     <string name="prefs_ddResume">继续下载</string>
     <string name="prefs_ddResume_summary">启动后自动恢复此前暂停的下载</string>
     <string name="prefs_enableNotifications">启用通知服务</string>
@@ -37,9 +37,9 @@
     <string name="locationAccess_message">本应用需要位置信息访问权限，仅为了读取WiFi SSID信息，不会进行其它操作。</string>
     <string name="profiles">配置文件</string>
     <string name="importProfiles">导入配置文件</string>
-    <string name="importProfiles_summary">从此前导出的文件中导入配置文件。</string>
+    <string name="importProfiles_summary">从此前导出的文件中导入配置文件</string>
     <string name="exportProfiles">导出配置文件</string>
-    <string name="exportProfiles_summary">把您的所有配置文件导出到单个文件。</string>
+    <string name="exportProfiles_summary">把您的所有配置文件导出到单个文件</string>
     <string name="failedImportingProfiles">导入配置文件失败！</string>
     <string name="failedExportingProfiles">导出配置文件失败！</string>
     <string name="profilesImportedSuccessfully">成功导入配置文件。</string>
@@ -86,7 +86,7 @@
     <string name="info">任务信息</string>
     <string name="files">文件列表</string>
     <string name="profileName">配置名称</string>
-    <string name="profile_help">如果您不知道如何正确建立配置文件，请查看我的网站上的指南: https://github.com/jiangjiali/Aria2-Android/wiki/Create-a-profile</string>
+    <string name="profile_help">如果您不知道如何正确建立配置文件，仔细作者</string>
     <string name="address">地址</string>
     <string name="peers">可连接用户</string>
     <string name="servers">服务器</string>
@@ -117,7 +117,7 @@
     <string name="more">更多</string>
     <string name="globalOptions">全局选项</string>
     <string name="downloadOptions">下载选项</string>
-    <string name="general">一般</string>
+    <string name="general">常规</string>
     <string name="notifications">通知</string>
     <string name="about_aria2">关于aria2</string>
     <string name="saveSession">保存会话</string>
@@ -337,7 +337,7 @@
     <string name="oldAria2AppNoInApp_message">最近更新的Aria2已包含Aria2的所有功能，请更新Aria2到最新版本以访问所有这些功能。</string>
     <string name="cannotStartInAppWithoutWritePermission">为了可以保存文件，Aria2的内置下载管理器需要写入设备存储的权限</string>
     <string name="addWebViewShortcutToHomePage">在主屏幕上添加WebView快捷方式</string>
-    <string name="addWebViewShortcutToHomePage_summary">在您的主屏幕上添加一个指向WebView的快捷方式。</string>
+    <string name="addWebViewShortcutToHomePage_summary">在您的主屏幕上添加一个指向WebView的快捷方式</string>
     <string name="setAsDefault">设置为默认</string>
     <string name="webViewUrlHint">请输入要访问的网址…</string>
     <string name="startPaused">添加后暂停任务</string>
@@ -370,7 +370,7 @@
     <string name="sambaPathHelp">这是从共享到aria2下载文件夹的相对路径。</string>
     <string name="previous">上一个</string>
     <string name="prefs_clearWebViewCookies">清除WebView cookies</string>
-    <string name="prefs_clearWebViewCookies_summary">打开WebView时清除cookie。</string>
+    <string name="prefs_clearWebViewCookies_summary">打开WebView时清除cookie</string>
     <string name="clearCookies">清除Cookies</string>
     <string name="notPermanentOptionsDisclaimer">这些选项会在重启时被重置。您可能想要在配置文件设置中编辑这些选项。</string>
 </resources>

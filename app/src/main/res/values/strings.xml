@@ -88,7 +88,7 @@
     <string name="info">Info</string>
     <string name="files">Files</string>
     <string name="profileName">Profile name</string>
-    <string name="profile_help">If you don\'t know to setup a profile properly check this guide on my website: https://github.com/jiangjiali/Aria2-Android/wiki/Create-a-profile</string>
+    <string name="profile_help">If you don\'t know to setup a profile properly.</string>
     <string name="address">Address</string>
     <string name="peers">Peers</string>
     <string name="servers">Servers</string>
@@ -316,7 +316,7 @@
     <string name="torrentFiles">Torrent files</string>
     <string name="metalinkFiles">Metalink files</string>
     <string name="urisFile">Uris file</string>
-    <string name="urisFile_help">To know more about URI files, visit this page: https://github.com/jiangjiali/Aria2-Android/wiki/What\'s-an-URI-file</string>
+    <string name="urisFile_help">To know more about URI files.</string>
     <string name="cancelled">Cancelled</string>
     <string name="failedStartingAria2Android">Failed starting Aria2!</string>
     <string name="prefs_ddUseExternal">Use external downloader</string>
