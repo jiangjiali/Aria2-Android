@@ -12,7 +12,7 @@ android {
         targetSdkVersion 35
 
         versionCode 1
-        versionName "1.36.0"
+        versionName "1.37.0"
 
         // Keep abiFilter for the universalApk
         ndk {
