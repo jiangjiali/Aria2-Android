@@ -2,10 +2,6 @@ name: Android CI
 
 on:
   workflow_dispatch:
-    inputs:
-      tag_name:
-        description: 'tag name'
-        required: true
 
 jobs:
   build:
@@ -22,6 +18,15 @@ jobs:
           java-version: '17'
       - name: 授予执行权限
         run: chmod +x gradlew
+      - name: 配置NDK
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y autoconf automake autopoint autotools-dev libtool libxml2-dev libcppunit-dev
+          wget https://dl.google.com/android/repository/android-ndk-r26d-linux.zip
+          unzip -q android-ndk-r26d-linux.zip
+          export ANDROID_NDK_HOME=`pwd`/android-ndk-r26d
+          export PATH=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH
+          export SILENT=true
       - name: 编译APK
         run: ./gradlew assembleRelease
         env:
