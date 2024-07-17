@@ -48,7 +48,7 @@ public final class Aria2Service extends Service implements Aria2.MessageListener
     public static final int MESSAGE_STOP = 3;
     private static final int MESSAGE_START = 4;
     private static final String CHANNEL_ID = "aria2service";
-    private static final String SERVICE_NAME = "Service for aria2";
+    private static final String SERVICE_NAME = "Aria2c服务";
     private static final int NOTIFICATION_ID = 69;
     private static final String TAG = Aria2Service.class.getSimpleName();
     private final HandlerThread serviceThread = new HandlerThread("aria2-service");
